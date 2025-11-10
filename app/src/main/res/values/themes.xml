@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.FinTrack" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Cores principais -->
+        <item name="colorPrimary">@color/verde_principal</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="backgroundColor">@color/background_claro</item>
+        <item name="android:windowBackground">@color/background_claro</item>
+        <item name="android:textColor">@color/texto_escuro</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FinTrack</string>
+    <string name="selecione_o_m_s">Selecione o mês:</string>
+    <string name="transacoes">Todas transações</string>
+    <string name="adicionar_transacao">Nova transação</string>
+    <string name="titulo_detalhe_transacao">Detalhe Transação</string>
+</resources>

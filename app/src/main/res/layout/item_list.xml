@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/design_default_color_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_transacao_item"
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:elevation="2dp"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/valorTransacao"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="-R$30,99"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/nomeDaTransacao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nome da Despesa"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="12dp"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/dataDaTransacao"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="08/11/2025"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:gravity="end"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+    </LinearLayout>
+</LinearLayout>
